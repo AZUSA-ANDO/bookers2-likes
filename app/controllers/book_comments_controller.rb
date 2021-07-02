@@ -1,5 +1,7 @@
 class BookCommentsController < ApplicationController
 
+
+
  before_action :authenticate_user!
   before_action :correct_user, only: [:destroy]
 
